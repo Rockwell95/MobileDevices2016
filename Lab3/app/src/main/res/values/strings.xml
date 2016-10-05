@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lab3</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login or register</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">This username is wrong</string>
+    <string name="error_invalid_password">This password invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--MAIN-->
+    <string name="title_activity_login">Sign in</string>
+    <string name="aboutButton">About</string>
+    <string name="login">Log In</string>
+    <string name="greeting">WELCOME!!!</string>
+
+    <!--ABOUT-->
+    <string name="about">This application is my solution for lab #3 for SOFE 4870U.\nCopyright Dominick J. Mancini</string>
+    <string name="finished">Finished</string>
+</resources>

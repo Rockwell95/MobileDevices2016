@@ -1,0 +1,12 @@
+<resources>
+    <!--For Main Layout-->
+    <string name="app_name">UIDemo</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+
+    <!--For Linear Layout-->
+    <string name="buttonText">POTATO</string>
+    <string name="textViewText">This is some text</string>
+    <string name="editTextText">Type some text</string>
+    <string name="checkBoxText">Trigger</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:text="@string/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="linearLayout" />
+
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:text="@string/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="relativeLayout" />
+
+    <!--<Button
+        android:id="@+id/thirdButton"
+        android:text="@string/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="linearLayout" />
+
+    <Button
+        android:id="@+id/fourthButton"
+        android:text="@string/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="linearLayout" />-->
+
+</LinearLayout>

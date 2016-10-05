@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/lblTextViewR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewText"
+        android:layout_alignParentLeft="true"/>
+
+    <EditText
+        android:id="@+id/txtEditTextR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/editTextText"/>
+
+    <CheckBox
+        android:id="@+id/cbxCheckBoxR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEditTextR"
+        android:text="@string/checkBoxText"/>
+
+    <Spinner
+        android:id="@+id/listSpinnerR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/btnLinearLayoutR"
+        android:text="@string/buttonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClick" />
+
+
+</RelativeLayout>
