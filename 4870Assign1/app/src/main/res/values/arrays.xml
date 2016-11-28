@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_questions">
+        <item>Is your favourite dinosaur a Velociraptor?</item>
+        <item>Did we just become best friends?</item>
+        <item>Do you wanna do Karate in the Garage?</item>
+        <item>Does every house on your street recycle?</item>
+        <item>Investors? Possibly You!</item>
+    </string-array>
+</resources>

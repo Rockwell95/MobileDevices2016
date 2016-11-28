@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">4870Assign1</string>
+    <string name="preamble">SOFE 4870U Assignment\nDominick Mancini - 100517944</string>
+    <string name="answer_some_questions">Answer Some Questions</string>
+    <string name="title_activity_ask_question">AskQuestion</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="error_missing_question">ERROR: MISSING QUESTION</string>
+    <string name="no_data">NO DATA</string>
+    <string name="finished">Finished!</string>
+</resources>
