@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">100517944_Lab7</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="save_grade">Save</string>
+    <string name="student_id">Student ID</string>
+    <string name="course_component">Course Component</string>
+    <string name="mark">Mark</string>
+</resources>

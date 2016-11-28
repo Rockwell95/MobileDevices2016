@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dominick.a100517944_lab8.ShowLocation">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/aline1"
+        android:hint="@string/address_line_1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/aline1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/aline2"
+        android:hint="@string/address_line_2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locality"
+        android:layout_below="@+id/aline2"
+        android:layout_alignParentStart="true"
+        android:hint="@string/locality" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/locality"
+        android:layout_alignParentStart="true"
+        android:id="@+id/admindiv"
+        android:hint="@string/administrative_division" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/admindiv"
+        android:layout_alignEnd="@+id/admindiv"
+        android:id="@+id/country"
+        android:hint="@string/country" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/country"
+        android:layout_alignEnd="@+id/country"
+        android:id="@+id/postcode"
+        android:hint="@string/postal_code" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/postcode"
+        android:layout_alignParentStart="true"
+        android:id="@+id/phone"
+        android:hint="@string/phone_number"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/phone"
+        android:layout_alignParentStart="true"
+        android:id="@+id/url"
+        android:hint="@string/url"
+        android:inputType="textUri" />
+
+    <Button
+        android:text="@string/show_on_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button2"
+        android:onClick="showOnMap"/>
+</RelativeLayout>

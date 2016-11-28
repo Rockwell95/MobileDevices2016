@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="over_v">Battery over voltage</string>
+    <string name="batt_overheat">Battery overheating</string>
+    <string name="unknown_health">Unknown Health Problem</string>
+</resources>
