@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>aimbot_mp4</item>
+        <item>allwindowscommercials_m4v</item>
+        <item>alternativemethodsoftermination_mp4</item>
+        <item>anationforeverchanged_mp4</item>
+        <item>andnoharshchemicals_mp4</item>
+        <item>anoldfashionedlovesong_m4a</item>
+        <item>aperfectlyinnocentquestion_mp4</item>
+        <item>aseparatepeace_mp4</item>
+        <item>blackandwhite_m4a</item>
+        <item>celebrate_m4a</item>
+        <item>centstofreedom_mp4</item>
+        <item>easytobehard_m4a</item>
+        <item>eliscoming_m4a</item>
+        <item>joytotheworld_m4a</item>
+        <item>letmeserenadeyou_m4a</item>
+        <item>liar_m4a</item>
+        <item>mamatoldmenottocome_m4a</item>
+        <item>neverbeentospain_m4a</item>
+        <item>one_m4a</item>
+        <item>onemanband_m4a</item>
+        <item>outinthecountry_m4a</item>
+        <item>piecesofapril_m4a</item>
+        <item>playsomethingsweetbrickyardblues_m4a</item>
+        <item>rename_cmd</item>
+        <item>s_o_b__m4a</item>
+        <item>shambala_m4a</item>
+        <item>sureasimsittinhere_m4a</item>
+        <item>thefamilyofman_m4a</item>
+        <item>theshowmustgoon_m4a</item>
+        <item>threedognightoneistheloneliestnumber_mp3</item>
+        <item>tryalittletenderness_m4a</item>
+    </string-array>
+</resources>
